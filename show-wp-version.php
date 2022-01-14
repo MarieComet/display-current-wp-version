@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: Show WordPress Version
- * Description: Display current WordPress version with shortcode [wp-version]
+ * Plugin Name: Display Current WP Version
+ * Description: Show current WordPress version with shortcode [wp-version]
  * Version: 1.0.0
  * Author: Marie Comet
  * Author URI: https://mc-cpts.fr

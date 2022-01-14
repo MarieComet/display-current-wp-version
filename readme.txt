@@ -1,4 +1,4 @@
-=== Show Current Version ===
+=== Display Current WP Version ===
 Contributors: chaton666
 Tags: show, wp, wordpress, version
 Requires at least: 4.6
