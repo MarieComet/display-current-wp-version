@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Show WordPress Version
  * Description: Display current WordPress version with shortcode [wp-version]
- * Version: 1
+ * Version: 1.0.0
  * Author: Marie Comet
  * Author URI: https://mc-cpts.fr
  * License: GNU General Public License v3 or later
