@@ -22,6 +22,7 @@ jobs:
         uses: MarieComet/wordpress-actions/dotorg-plugin-deploy@master
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GH }}
-          SLUG: simple-wall
+          SLUG: display-current-wp-version
+          NAME: Display Current WP Version
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
