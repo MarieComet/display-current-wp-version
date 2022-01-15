@@ -1,0 +1,12 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "dwpv/version",
+	"version": "1.0.0",
+	"title": "WP Version",
+	"category": "widgets",
+	"icon": "yes",
+	"description": "Display WordPress Version",
+	"textdomain": "display-current-wp-version",
+	"editorScript": "file:./build/index.js"
+}

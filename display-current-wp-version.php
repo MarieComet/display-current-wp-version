@@ -15,9 +15,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( ! defined( 'DWPV_PATH' ) ) {
+    define( 'DWPV_PATH', plugin_dir_path( __FILE__ ) );
+}
+if ( ! defined( 'DWPV_URL' ) ) {
+    define( 'DWPV_URL', plugin_dir_url( __FILE__ ) );
+}
+
 add_shortcode( 'wp-version', 'dwpv_version_shortcode' );
 if ( ! function_exists( 'dwpv_version_shortcode' ) ) {
 	function dwpv_version_shortcode( $atts ) {
 		return get_bloginfo( 'version' );
 	}
+}
+
+/**
+ * Load files
+ */
+add_action( 'plugins_loaded', 'dwpv_load_files' );
+function dwpv_load_files() {
+	require_once DWPV_PATH . 'inc/blocks.php';
 }
